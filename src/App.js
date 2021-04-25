@@ -2,6 +2,6 @@
 import './App.css';
 import { Header } from './Components/Header';
 
-const App = () => <Header title="Hakan Gundogdu -- Front-end Developer" />;
+const App = () => <Header title="Hakan Gundogdu - Front-end Developer" />;
 
 export default App;
