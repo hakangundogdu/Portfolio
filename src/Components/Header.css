@@ -1,0 +1,17 @@
+.body {
+  background-color: white;
+}
+
+.header {
+  padding: 20px;
+}
+
+.title {
+  color: #24292f;
+  font-style: bold;
+  font-size: 64px;
+}
+
+.intro {
+  font-size: 30px;
+}

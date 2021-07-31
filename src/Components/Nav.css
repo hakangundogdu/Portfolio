@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f6f8fa;
+  width: 50%;
+  margin: 30px auto;
+  padding-inline-start: 0px;
+  border: 1px solid #f6f8fa;
+  border-radius: 50px;
+}
+.nav-items {
+  display: flex;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #959da8;
+  font-size: 18px;
+}
+
+li {
+  list-style-type: none;
+}
