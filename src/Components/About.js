@@ -1,10 +1,17 @@
 import React from 'react';
+import './About.css';
 
 const About = () => {
   return (
-    <div>
+    <div className="about">
       <div className="image-container"></div>
-      <div className="about">
+      <img
+        className="profile-image"
+        src={require('../Assets/hakan.png')}
+        alt="Hakan"
+      />
+
+      <div className="about-me">
         <h2>About Me</h2>
         <p>
           Hi there! I am Hakan! After working in finance industry for 10 years,
@@ -15,7 +22,6 @@ const About = () => {
           Native.{' '}
         </p>
       </div>
-      About Me
     </div>
   );
 };

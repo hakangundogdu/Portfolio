@@ -3,13 +3,18 @@
 }
 
 .header {
-  padding: 20px;
+  padding: 50px;
+  margin-bottom: 50px;
 }
 
 .title {
   color: #24292f;
   font-style: bold;
   font-size: 64px;
+}
+
+.intro {
+  font-size: 30px;
 }
 
 .intro {

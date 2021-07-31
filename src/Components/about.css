@@ -1,1 +1,23 @@
-import './About.css';
+.about {
+  background-color: #24292f;
+  padding: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  flex-grow: 1;
+  margin: 0 auto;
+}
+.about-me {
+  width: 40%;
+  text-align: left;
+}
+
+.about-me > h2 {
+  color: #fff;
+}
+
+.about-me > p {
+  line-height: 30px;
+}
