@@ -1,0 +1,22 @@
+.test-title {
+  color: #24292f;
+  font-style: bold;
+  font-size: 40px;
+}
+
+.test-container {
+  display: flex;
+  margin: 20px 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-container > p {
+  line-height: 30px;
+  width: 60%;
+  margin: 40px 80px;
+}
+
+.test-container > img {
+  size: 20px;
+}

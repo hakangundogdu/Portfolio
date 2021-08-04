@@ -20,3 +20,11 @@
 .intro {
   font-size: 30px;
 }
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 80px auto;
+  align-items: center;
+}

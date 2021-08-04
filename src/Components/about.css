@@ -6,11 +6,10 @@
 }
 
 .profile-image {
-  flex-grow: 1;
-  margin: 0 auto;
+  margin: 0 40px;
 }
 .about-me {
-  width: 40%;
+  width: 50%;
   text-align: left;
 }
 
