@@ -3,10 +3,12 @@
   padding: 120px;
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
 .profile-image {
   margin: 0 40px;
+  width: 20%;
 }
 .about-me {
   width: 50%;

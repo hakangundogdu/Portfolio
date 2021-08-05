@@ -8,7 +8,7 @@ import twitter from '../Assets/twitter.png';
 
 export const Header = ({ title }) => {
   return (
-    <div className="header">
+    <div className="header" id="home">
       <h1 className="title">{title}</h1>
       <p className="intro">Developer & Designer</p>
       <div className="icon-container">

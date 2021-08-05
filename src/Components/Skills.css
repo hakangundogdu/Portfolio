@@ -1,20 +1,21 @@
 .skills {
   background-color: #24292f;
   padding: 40px 20px;
+  height: 400px;
 }
 
 .skills-title {
   color: #fff;
   font-style: bold;
   font-size: 40px;
-  margin: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .skills-container {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  flex-flow: row wrap;
 }
 
 .skills-sub {

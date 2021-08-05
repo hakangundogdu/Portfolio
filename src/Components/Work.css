@@ -1,3 +1,7 @@
+.work {
+  padding: 40px 20px;
+}
+
 .title {
   color: #24292f;
   font-style: bold;
@@ -9,6 +13,7 @@
   justify-content: space-around;
   align-items: center;
   margin-bottom: 40px;
+  flex-flow: row wrap;
 }
 
 .box1 {

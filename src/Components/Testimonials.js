@@ -12,7 +12,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="testimonials">
+    <div className="testimonials" id="testimonials">
       <h1 className="test-title">Testimonials</h1>
       <img
         className="quote"

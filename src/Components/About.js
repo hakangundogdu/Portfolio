@@ -4,7 +4,7 @@ import hakan from '../Assets/hakan.png';
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="image-container"></div>
       <img className="profile-image" src={hakan} alt="Hakan" />
       <div className="about-me">

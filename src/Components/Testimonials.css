@@ -1,12 +1,18 @@
+.testimonials {
+  height: 500px;
+  padding: 40px 20px;
+}
+
 .test-title {
   color: #24292f;
   font-style: bold;
   font-size: 40px;
+  padding-top: 20px;
 }
 
 .test-container {
   display: flex;
-  margin: 20px 80px;
+  margin: 60px 20px;
   justify-content: center;
   align-items: center;
 }
@@ -19,4 +25,8 @@
 
 .test-container > img {
   size: 20px;
+}
+
+.quote {
+  margin-top: 40px;
 }
