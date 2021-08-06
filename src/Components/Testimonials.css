@@ -25,6 +25,7 @@
 
 .test-container > img {
   size: 20px;
+  position: relative;
 }
 
 .quote {
