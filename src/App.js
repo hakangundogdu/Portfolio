@@ -1,13 +1,13 @@
 //import React from "react";
 import './App.css';
-import { Header } from './Components';
-import Nav from './Components/Nav';
-import About from './Components/About';
-import Work from './Components/Work';
-import Skills from './Components/Skills';
-import Testimonials from './Components/Testimonials';
+import { Header } from './components';
+import { Nav } from './components/navigation';
+import About from './components/About';
+import Work from './components/Work';
+import Skills from './components/Skills';
+import Testimonials from './components/Testimonials';
 
-import Footer from './Components/Footer';
+import Footer from './components/Footer';
 
 const App = () => {
   return (

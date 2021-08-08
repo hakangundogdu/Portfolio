@@ -7,7 +7,6 @@
   padding-inline-start: 0px;
   border: 1px solid #f6f8fa;
   border-radius: 50px;
-  scroll-behavior: smooth;
 }
 .nav-items {
   display: flex;
@@ -15,6 +14,11 @@
   padding: 10px 20px;
   color: #959da8;
   font-size: 18px;
+  border-top: 2px solid transparent;
+  transition: all 200ms ease-in-out;
+}
+.nav-items:hover {
+  border-top: 2px solid #2ecc71;
 }
 
 li {
@@ -25,4 +29,15 @@ li {
   padding: 10px 20px;
   color: #24292f;
   font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+  }
 }

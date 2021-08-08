@@ -1,5 +1,4 @@
 .testimonials {
-  height: 500px;
   padding: 40px 20px;
 }
 
@@ -25,7 +24,6 @@
 
 .test-container > img {
   size: 20px;
-  position: relative;
 }
 
 .quote {

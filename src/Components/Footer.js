@@ -1,11 +1,11 @@
 import React from 'react';
 import './Footer.css';
 import { Icon } from './Icon';
-import mail from '../Assets/mail.png';
-import linkedin from '../Assets/linkedin.png';
-import github from '../Assets/github.png';
-import twitter from '../Assets/twitter.png';
-import link from '../Assets/link.png';
+import mail from '../assets/mail.png';
+import linkedin from '../assets/linkedin.png';
+import github from '../assets/github.png';
+import twitter from '../assets/twitter.png';
+import link from '../assets/link.png';
 
 const Footer = () => {
   return (

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Testimonials.css';
-import quote from '../Assets/quote.png';
-import leftarrow from '../Assets/left-arrow.png';
-import rightarrow from '../Assets/right-arrow.png';
+import quote from '../assets/quote.png';
+import leftarrow from '../assets/left-arrow.png';
+import rightarrow from '../assets/right-arrow.png';
 
 const Testimonials = () => {
   const testimonials = [

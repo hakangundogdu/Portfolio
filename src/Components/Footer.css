@@ -2,7 +2,6 @@
   background-color: #24292f;
   display: flex;
   justify-content: center;
-  height: 400px;
   padding: 0 40px;
 }
 
@@ -31,4 +30,25 @@
 .contact-icon > a {
   text-decoration: none;
   color: #959da8;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10 20px;
+  }
+  .footer-title {
+    text-align: left;
+    padding-left: 60px;
+    font-size: 30px;
+    align-self: center;
+    width: 100%;
+  }
+  .footer-container {
+    justify-content: flex-start;
+    padding-left: 20px;
+    width: 100%;
+  }
 }
