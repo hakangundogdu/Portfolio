@@ -33,8 +33,9 @@
     justify-content: center;
     flex-flow: row wrap;
   }
-  .image-container {
-    object-fit: cover;
+  .profile-image {
+    width: 205px;
+    height: 229px;
   }
   .about-me {
     margin-top: 20px;
