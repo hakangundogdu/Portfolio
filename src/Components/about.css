@@ -1,5 +1,9 @@
 .about {
-  background-color: #24292f;
+  background: linear-gradient(
+    135deg,
+    rgba(2, 18, 39, 1) 0%,
+    rgba(3, 25, 55, 1) 100%
+  );
   padding: 120px;
   display: flex;
   justify-content: center;
@@ -24,7 +28,6 @@
 
 @media (max-width: 768px) {
   .about {
-    background-color: #24292f;
     padding: 40px;
     display: flex;
     justify-content: center;

@@ -1,5 +1,9 @@
 .footer {
-  background-color: #24292f;
+  background: linear-gradient(
+    135deg,
+    rgba(2, 18, 39, 1) 0%,
+    rgba(3, 25, 55, 1) 100%
+  );
   display: flex;
   justify-content: center;
   padding: 20px 40px;

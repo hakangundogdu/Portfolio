@@ -3,9 +3,10 @@
 }
 
 .title {
-  color: #24292f;
+  color: #021227;
   font-style: bold;
   font-size: 40px;
+  margin-bottom: 60px;
 }
 
 .boxes {
@@ -30,8 +31,8 @@
 }
 
 .work-img:hover {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 @media (max-width: 768px) {

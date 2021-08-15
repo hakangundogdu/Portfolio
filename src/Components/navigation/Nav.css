@@ -16,7 +16,7 @@
   display: none;
   border: none;
   background-color: transparent;
-  color: #24292f;
+  color: #021227;
 }
 
 .nav-items {
@@ -31,7 +31,7 @@
 .nav-items:hover {
   border-top: 2px solid #2ecc71;
   padding: 10px 20px;
-  color: #24292f;
+  color: #031937;
   font-size: 18px;
 }
 

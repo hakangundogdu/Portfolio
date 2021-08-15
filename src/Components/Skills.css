@@ -1,5 +1,9 @@
 .skills {
-  background-color: #24292f;
+  background: linear-gradient(
+    135deg,
+    rgba(2, 18, 39, 1) 0%,
+    rgba(3, 25, 55, 1) 100%
+  );
   padding: 40px 20px;
 }
 
@@ -20,8 +24,7 @@
 .skills-sub {
   color: #fff;
   font-style: bold;
-  margin: 10px;
-  padding: 10px;
+  margin: 10px 0px;
 }
 .skills-left {
   text-align: right;

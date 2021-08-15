@@ -1,10 +1,10 @@
 import React from 'react';
 import './Header.css';
 import { Icon } from './Icon';
-import mail from '../assets/mail.png';
-import linkedin from '../assets/linkedin.png';
-import github from '../assets/github.png';
-import twitter from '../assets/twitter.png';
+import mail from '../assets/mail.svg';
+import linkedin from '../assets/linkedin.svg';
+import github from '../assets/github.svg';
+import twitter from '../assets/twitter.svg';
 
 export const Header = ({ title }) => {
   return (

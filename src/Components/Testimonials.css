@@ -3,7 +3,7 @@
 }
 
 .test-title {
-  color: #24292f;
+  color: #021227;
   font-style: bold;
   font-size: 40px;
   padding-top: 20px;
@@ -11,7 +11,7 @@
 
 .test-container {
   display: flex;
-  margin: 60px 20px;
+  margin: 40px 20px;
   justify-content: center;
   align-items: center;
 }
@@ -20,6 +20,7 @@
   line-height: 30px;
   width: 60%;
   margin: 40px 80px;
+  height: 150px;
 }
 
 .test-container > img {
