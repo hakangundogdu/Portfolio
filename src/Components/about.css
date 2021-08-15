@@ -6,7 +6,7 @@
   flex-flow: row wrap;
 }
 
-.profile-image {
+.image-container {
   margin: 0 40px;
 }
 .about-me {
@@ -20,4 +20,22 @@
 
 .about-me > p {
   line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .about {
+    background-color: #24292f;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  .image-container {
+    object-fit: cover;
+  }
+  .about-me {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
 }

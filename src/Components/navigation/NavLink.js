@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const NavLink = ({ link, title }) => {
+export const NavLink = ({ link, title, onToggle }) => {
   return (
     <li>
-      <a className="nav-items" href={link}>
+      <a className="nav-items" href={link} onClick={onToggle}>
         {title}
       </a>
     </li>

@@ -8,7 +8,7 @@ const Skills = () => {
       <div className="skills-container">
         <div className="skills-left">
           <h2 className="skills-sub">Graphic Design</h2>
-          <p>Adobe Illustrator / Photoshop / Indesign</p>
+          <p>Illustrator / Photoshop / Indesign</p>
           <p>Figma / Sketch / Canva</p>
           <p>PowerPoint / Keynote / Google Slides</p>
         </div>
