@@ -4,9 +4,13 @@
     rgba(2, 18, 39, 1) 0%,
     rgba(3, 25, 55, 1) 100%
   );
+  padding: 40px;
+  padding-bottom: 10px;
+}
+.footer-main {
   display: flex;
   justify-content: center;
-  padding: 20px 40px;
+  padding: 40px;
 }
 
 .footer-title {
@@ -33,15 +37,18 @@
 
 .contact-icon > a {
   text-decoration: none;
-  color: #959da8;
+  color: white;
 }
 
 @media (max-width: 768px) {
   .footer {
+    padding: 10px;
+  }
+  .footer-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px 20px;
+    padding: 10px 10px;
   }
   .footer-title {
     text-align: center;
@@ -53,5 +60,10 @@
     justify-content: flex-start;
     padding-left: 0;
     width: 100%;
+  }
+  .footer-text {
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
   }
 }
