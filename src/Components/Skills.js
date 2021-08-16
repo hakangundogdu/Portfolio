@@ -13,7 +13,7 @@ const Skills = () => {
           <p>PowerPoint / Keynote / Google Slides</p>
         </div>
         <div className="skills-right">
-          <h2 className="skills-sub">Graphic Design</h2>
+          <h2 className="skills-sub">Programming</h2>
           <p>HTML / CSS / Javascript</p>
           <p>React / React Native</p>
           <p>Python / Django</p>
